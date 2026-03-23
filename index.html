@@ -261,6 +261,7 @@ ul {padding-left:1.2rem;}
 .keyword-tag {background:#e3f2fd; color:#1976d2; padding:0.3rem 0.8rem; border-radius:25px; font-size:0.85rem; margin:0.2rem; display:inline-block;}
 section {margin-bottom:3rem;}
 footer a {text-decoration:underline;}
+nav ul li a {display:inline-block; margin-bottom:0.3rem;}
 </style>
 </head>
 <body>
@@ -283,83 +284,122 @@ footer a {text-decoration:underline;}
 </ul>
 </nav>
 
-<!-- Main content sections omitted for brevity, same as your code -->
+<!-- Main Content Sections Omitted for Brevity (keep all your sections as-is) -->
 
-</div>
-
-<!-- Footer & SEO Structured Data Start -->
+<!-- Footer -->
 <footer style="background:linear-gradient(135deg,#2c3e50,#34495e); color:white; text-align:center; padding:3rem 2rem; margin-top:4rem;">
-  <div style="max-width:800px; margin:0 auto;">
-    <p><strong>© 2026 Benny "Palmo Kid" Palmarino | Langhorne, PA</strong></p>
-    <p>Official <strong>TMHardware.com Affiliate</strong> via LinkConnector</p>
-    <p>Serving contractors nationwide with <strong>door gaskets, thresholds, sweeps, astragals & weatherstripping</strong></p>
-    <p style="font-size:0.9rem; opacity:0.8;">
-      Free shipping $300+ | 5% off $1k+ | 10% off $5k+ | Custom sizes available
-    </p>
+<div style="max-width:800px; margin:0 auto;">
+<p><strong>© 2026 Benny "Palmo Kid" Palmarino | Langhorne, PA</strong></p>
+<p>Official <strong>TMHardware.com Affiliate</strong> via LinkConnector</p>
+<p>Serving contractors nationwide with <strong>door gaskets, thresholds, sweeps, astragals & weatherstripping</strong></p>
+<p style="font-size:0.9rem; opacity:0.8;">
+Free shipping $300+ | 5% off $1k+ | 10% off $5k+ | Custom sizes available
+</p>
 
-    <!-- Footer Links -->
-    <p style="margin-top:1rem;">
-      <a href="/privacy-policy" style="color:#ffffff;">Privacy Policy</a> |
-      <a href="/contact" style="color:#ffffff;">Contact Us</a> |
-      <a href="https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb" target="_blank" rel="nofollow" style="color:#ffffff;">Shop TMHardware</a>
-    </p>
+<p style="margin-top:1rem;">
+<a href="/privacy-policy" style="color:#ffffff;">Privacy Policy</a> |
+<a href="/contact" style="color:#ffffff;">Contact Us</a> |
+<a href="https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb" target="_blank" rel="nofollow" style="color:#ffffff;">Shop TMHardware</a>
+</p>
 
-    <p style="margin-top:0.5rem; font-size:0.95rem;">
-      <strong>Trademark Hardware Contact Info:</strong><br>
-      100 Rt 59, Unit 120, Suffern, NY 10901<br>
-      Phone: <a href="tel:+18556881388" style="color:#ffffff;">855‑688‑1388</a> / <a href="tel:+18453881300" style="color:#ffffff;">845‑388‑1300</a><br>
-      Email: <a href="mailto:customerservice@tmhardware.com" style="color:#ffffff;">customerservice@tmhardware.com</a>
-    </p>
-  </div>
+<p style="margin-top:0.5rem; font-size:0.95rem;">
+<strong>Trademark Hardware Contact Info:</strong><br>
+100 Rt 59, Unit 120, Suffern, NY 10901<br>
+Phone: <a href="tel:+18556881388" style="color:#ffffff;">855‑688‑1388</a> / <a href="tel:+18453881300" style="color:#ffffff;">845‑388‑1300</a><br>
+Email: <a href="mailto:customerservice@tmhardware.com" style="color:#ffffff;">customerservice@tmhardware.com</a>
+</p>
+</div>
 </footer>
 
-<!-- JSON-LD Structured Data for Footer & Website -->
+<!-- FAQ JSON-LD Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "Organization",
-      "name": "Trademark Hardware Inc",
-      "url": "https://www.tmhardware.com",
-      "logo": "https://yourdomain.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "100 Rt 59, Unit 120",
-        "addressLocality": "Suffern",
-        "addressRegion": "NY",
-        "postalCode": "10901",
-        "addressCountry": "US"
-      },
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "telephone": "+1-855-688-1388",
-          "email": "customerservice@tmhardware.com",
-          "areaServed": "US"
-        }
-      ],
-      "sameAs": [
-        "https://www.facebook.com/TMHardware",
-        "https://twitter.com/TMHardware",
-        "https://www.linkedin.com/company/trademark-hardware"
-      ]
+      "@type": "Question",
+      "name": "What types of door gaskets does TMHardware offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TMHardware offers EPDM, neoprene, silicone, brush, aluminum, and magnetic gaskets for residential, commercial, and industrial doors. Fire-rated options are also available. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop TMHardware gaskets</a>."
+      }
     },
     {
-      "@type": "WebSite",
-      "name": "TMHardware Door Hardware Guide",
-      "url": "https://yourdomain.com",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://yourdomain.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
+      "@type": "Question",
+      "name": "Are TMHardware thresholds ADA-compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, TMHardware offers ADA-compliant thresholds with slopes ≤ 1:12 to ensure accessibility. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop ADA thresholds</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I order custom-sized gaskets and thresholds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely — TMHardware provides free custom cutting for thresholds, gaskets, and door sweeps to fit exact dimensions. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop custom sizes</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do TMHardware door sweeps help with energy efficiency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, door sweeps and weatherstripping block drafts, reduce HVAC costs, and improve indoor comfort. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop door sweeps</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there fire-rated door gaskets available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, TMHardware offers UL fire-rated gaskets suitable for commercial and residential fire doors. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop fire-rated gaskets</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best type of door sweep for a commercial building?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Automatic door bottoms or heavy-duty brush/rubber sweeps are ideal for commercial entrances due to durability and performance. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop commercial sweeps</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I maintain my TMHardware gaskets and sweeps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Clean with mild soap and water, check for wear regularly, and lubricate any moving parts for automatic door bottoms. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop maintenance supplies</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can TMHardware weatherstripping reduce noise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, vinyl, silicone, and EPDM weatherstripping improves acoustic performance by reducing sound transfer between rooms. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop weatherstripping</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are TMHardware products suitable for cold storage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Magnetic gaskets and EPDM seals are perfect for cold storage and refrigeration applications due to their airtight performance. <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>Shop cold storage gaskets</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I purchase TMHardware products online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click any of the product links in this guide or visit the <a href='https://www.linkconnector.com/ta.php?lc=007949113406007272&atid=TMHardwareWeb' target='_blank' rel='nofollow'>TMHardware Affiliate Store</a> to place your order with free shipping on $300+ purchases."
       }
     }
   ]
 }
 </script>
-<!-- Footer & SEO Structured Data End -->
 
 </body>
 </html>
